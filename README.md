@@ -67,3 +67,4 @@ These images and their results can be found in the LLDWithMyImage.ipynb
 ### Findings And Future Research
 I would like to see if I can’t edit the pipeline to detect snowy conditions better and provide a more accurate reading for lanes. Since cars must travel in all conditions, it would be essential to have a program that could provide accurate results in all weather conditions. 
 The pipeline also needs to be modified to account for curves in the road. The pipeline using Hough to detect straight lines. If we added another algorithm that would detect curved lines we might be able to acquire the ability to detect curves in the road. 
+I think that my favorite part of this project was learning about all the layers an image must go through before it can properly be analyzed and even with all these layers this program is still ineffective at producing accurate models for roads with snowy conditions or curves. 
