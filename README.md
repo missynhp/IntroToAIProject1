@@ -30,6 +30,7 @@ The pipeline also implements Gaussian smoothing which is where we blur our image
 After this the region of interest masks the portion we need for lane line detection with a polygon and sets the rest of the image to black. 
 
 ![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/39c57f45-55d1-4619-83b5-eaa9d2a5a62a)
+
 ![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/4d4856f3-750a-41a2-aecc-3c292e2afd39)
 
 Then the draw lines function draws lines on our image. The slope line is using the slope of the line to determine which line is in the image. Hough lines are used to detect straight lines. This is helpful in detecting the lines that separate lanes. The weight image function puts it all together, combining the lines that were drawn with your image. 
