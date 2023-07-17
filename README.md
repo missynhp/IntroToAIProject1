@@ -16,7 +16,11 @@ GitHub Repo
 
 ###Training the Program
 
-A good portion of this project was spent understanding the pipeline used for the lane line detection. The pipeline begins by grayscaling. Grayscaling removes color information from our image. A canny algorithm is used to detect the edges in our image. The pipeline also implements Gaussian smoothing which is where we blur our image. This is used to get rid of non essential details and reduce noise. 
+A good portion of this project was spent understanding the pipeline used for the lane line detection. The pipeline begins by grayscaling. Grayscaling removes color information from our image. 
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/ec7353a9-7966-4475-adfc-f1e432f0b6e9)
+A canny algorithm is used to detect the edges in our image. 
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/cd10e2e3-0a05-4544-a585-03c514ee75ab)
+The pipeline also implements Gaussian smoothing which is where we blur our image. This is used to get rid of non essential details and reduce noise. 
 After this the region of interest masks the portion we need for lane line detection with a polygon and sets the rest of the image to black. Then the draw lines function draws lines on our image. The slope line is using the slope of the line to determine which line is in the image. Hough lines are used to detect straight lines. This is helpful in detecting the lines that separate lanes. The weight image function puts it all together, combining the lines that were drawn with your image. 
 
 ###Testing the Program 
