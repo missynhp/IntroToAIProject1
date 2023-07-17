@@ -12,16 +12,26 @@ I started the project off by searching for a good dataset. I found that Kaggle p
 
 Kaggle
 GitHub Repo  
+
 ![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/cabab98d-20a0-4ffd-86b5-814890a7a453)
 
 ###Training the Program
 
 A good portion of this project was spent understanding the pipeline used for the lane line detection. The pipeline begins by grayscaling. Grayscaling removes color information from our image. 
+
 ![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/ec7353a9-7966-4475-adfc-f1e432f0b6e9)
+
 A canny algorithm is used to detect the edges in our image. 
+
 ![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/cd10e2e3-0a05-4544-a585-03c514ee75ab)
+
 The pipeline also implements Gaussian smoothing which is where we blur our image. This is used to get rid of non essential details and reduce noise. 
-After this the region of interest masks the portion we need for lane line detection with a polygon and sets the rest of the image to black. Then the draw lines function draws lines on our image. The slope line is using the slope of the line to determine which line is in the image. Hough lines are used to detect straight lines. This is helpful in detecting the lines that separate lanes. The weight image function puts it all together, combining the lines that were drawn with your image. 
+After this the region of interest masks the portion we need for lane line detection with a polygon and sets the rest of the image to black. 
+
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/39c57f45-55d1-4619-83b5-eaa9d2a5a62a)
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/4d4856f3-750a-41a2-aecc-3c292e2afd39)
+
+Then the draw lines function draws lines on our image. The slope line is using the slope of the line to determine which line is in the image. Hough lines are used to detect straight lines. This is helpful in detecting the lines that separate lanes. The weight image function puts it all together, combining the lines that were drawn with your image. 
 
 ###Testing the Program 
 To test the accuracy of this program I used images from different scenarios including Colorado roads, roads at nighttime, roads with snowy conditions, and curvy roads. I wanted to see if there were any weak areas that might possibly be improved in the pipeline. 
