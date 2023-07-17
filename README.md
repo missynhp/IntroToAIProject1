@@ -14,7 +14,7 @@ I started the project off by searching for a good dataset. I found that Kaggle p
 
 [GitHub Repo  ](https://github.com/udacity/CarND-LaneLines-P1)
 
-![image](https://github.com/missynhp/IntroTo AIProject1/assets/70307254/cabab98d-20a0-4ffd-86b5-814890a7a453)
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/fbcc8223-9e7b-405e-a8bc-de427115ee73)
 
 ###Training the Program
 
