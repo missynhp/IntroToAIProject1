@@ -42,8 +42,20 @@ When testing the program on Colorado roads I found that the landscape and other 
 <img width="325" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/e3e6972c-8019-4c7b-8d44-26b4178ca585">
 
 
-When using nighttime images, as long as the lines were reflective and noticeable by camera the program was fairly accurate. When you introduce a little curve the program starts to become highly inaccurate. 
-The program does not perform well for snowy conditions. The program uses tire marks made in the snow as lanes. My last finding was that this program does not perform on any type of roads that contain any type of curve. 
+When using nighttime images, as long as the lines were reflective and noticeable by camera the program was fairly accurate. When you introduce a little curve the program starts to become highly inaccurate.
+
+<img width="326" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/dc7ae185-4ab3-4fba-aafe-6761a139c2cb">
+
+The program does not perform well for snowy conditions. The program uses tire marks made in the snow as lanes. My last finding was that this program does not perform on any type of roads that contain any type of curve.
+
+<img width="325" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/e4b593ff-e87e-4018-9adb-d2297131f4f2">
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/19000a36-778d-43d0-aec2-d71f5c38471a)
+
+The program would not analyze any of the pictures that I provided with curves. The program would return errors. The only thing that seemed to happen was that the program would recognize the middle line. I tested pictures with different types of curves. 
+
+<img width="320" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/deb374a8-f1dc-4b40-ab48-609c40a8bc5b">
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/483eaab5-adf0-4b67-85dd-e70af8e09c2c)
+
 These images and their results can be found in the LLDWithMyImage.ipynb
 
 ###Future Research
