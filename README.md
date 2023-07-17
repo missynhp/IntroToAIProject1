@@ -36,6 +36,9 @@ Then the draw lines function draws lines on our image. The slope line is using t
 ###Testing the Program 
 To test the accuracy of this program I used images from different scenarios including Colorado roads, roads at nighttime, roads with snowy conditions, and curvy roads. I wanted to see if there were any weak areas that might possibly be improved in the pipeline. 
 When testing the program on Colorado roads I found that the landscape and other surroundings did not really affect the program’s performance. However, the size and thickness of the lines did play a part. The first image I used detected the entire road to be a lane. The second image had no problems. 
+
+<img width="326" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/e6a5184e-60ce-4d49-8a8f-4708f0105b62">
+
 When using nighttime images, as long as the lines were reflective and noticeable by camera the program was fairly accurate. When you introduce a little curve the program starts to become highly inaccurate. 
 The program does not perform well for snowy conditions. The program uses tire marks made in the snow as lanes. My last finding was that this program does not perform on any type of roads that contain any type of curve. 
 These images and their results can be found in the LLDWithMyImage.ipynb
