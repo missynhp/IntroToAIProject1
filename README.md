@@ -50,7 +50,7 @@ When using nighttime images, as long as the lines were reflective and noticeable
 The program does not perform well for snowy conditions. The program uses tire marks made in the snow as lanes. My last finding was that this program does not perform on any type of roads that contain any type of curve.
 
 <img width="325" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/e4b593ff-e87e-4018-9adb-d2297131f4f2">
-![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/19000a36-778d-43d0-aec2-d71f5c38471a)
+![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/a29b4048-5f09-4976-b57a-13b883119f2e)
 
 The program would not analyze any of the pictures that I provided with curves. The program would return errors. The only thing that seemed to happen was that the program would recognize the middle line. I tested pictures with different types of curves. 
 
