@@ -10,10 +10,11 @@ This project is to learn more about computer vision and artificial intelligence.
 
 I started the project off by searching for a good dataset. I found that Kaggle provided good open source datasets and code to start my project off. Kaggle is an open source platform available for anybody to use. In previous projects I had trouble bringing in data and images, but I was able to find a project that pulled the data in through a GitHub repository. The source code is provided in the file LaneLineDetectionOriginal.ipynb
 
-Kaggle
-GitHub Repo  
+[Kaggle](https://www.kaggle.com/code/soumya044/lane-line-detection)
 
-![image](https://github.com/missynhp/IntroToAIProject1/assets/70307254/cabab98d-20a0-4ffd-86b5-814890a7a453)
+[GitHub Repo  ](https://github.com/udacity/CarND-LaneLines-P1)
+
+![image](https://github.com/missynhp/IntroTo AIProject1/assets/70307254/cabab98d-20a0-4ffd-86b5-814890a7a453)
 
 ###Training the Program
 
@@ -38,6 +39,8 @@ To test the accuracy of this program I used images from different scenarios incl
 When testing the program on Colorado roads I found that the landscape and other surroundings did not really affect the program’s performance. However, the size and thickness of the lines did play a part. The first image I used detected the entire road to be a lane. The second image had no problems. 
 
 <img width="326" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/e6a5184e-60ce-4d49-8a8f-4708f0105b62">
+<img width="325" alt="image" src="https://github.com/missynhp/IntroToAIProject1/assets/70307254/e3e6972c-8019-4c7b-8d44-26b4178ca585">
+
 
 When using nighttime images, as long as the lines were reflective and noticeable by camera the program was fairly accurate. When you introduce a little curve the program starts to become highly inaccurate. 
 The program does not perform well for snowy conditions. The program uses tire marks made in the snow as lanes. My last finding was that this program does not perform on any type of roads that contain any type of curve. 
